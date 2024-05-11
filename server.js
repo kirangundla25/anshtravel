@@ -9,7 +9,7 @@ require("dotenv").config();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://anshtravelspot.com/",
+    origin: "https://anshtravelspot.com",
     methods: ["GET", "POST"],
   })
 );
