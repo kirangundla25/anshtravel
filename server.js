@@ -3,16 +3,19 @@ const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
 
-// require("dotenv").config();
+require("dotenv").config();
 
 //  Middleware
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://anshtravelspot.com/",
+    methods: ["GET", "POST"],
+  })
+);
 
 // DB Connection
-mongoose.connect(
-  "mongodb+srv://kirangundala7:KcgSweety8@cluster0.5cmjhpj.mongodb.net/carbooking?retryWrites=true&w=majority"
-);
+mongoose.connect(process.env.REACT_APP_DATABASE_URL);
 const connection = mongoose.connection;
 
 connection.on("connected", () => {
