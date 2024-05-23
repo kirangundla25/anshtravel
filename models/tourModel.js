@@ -5,7 +5,11 @@ const tourSchema = new mongoose.Schema(
     car: { type: mongoose.Schema.Types.ObjectID, ref: "cars" },
     //   user : {type : mongoose.Schema.Types
     tourName: { type: String, required: true },
-    tourImage: { type: String, required: true },
+    // tourImage: { type: String, required: true },
+    uploaded_Images: {
+      type: [String],
+      required: true,
+    },
     tourPrice: { type: Number, required: true },
     description: { type: String },
     bookedTimeSlots: [
