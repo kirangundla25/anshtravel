@@ -12,8 +12,8 @@ app.use(express.json());
 app.use(express.static("public/media"));
 app.use(
   cors({
-    // origin: "https://anshtravelspot.com",
-    // methods: ["GET", "POST"],
+    origin: "https://anshtravelspot.com",
+    methods: ["GET", "POST"],
   })
 );
 
