@@ -13,17 +13,15 @@ let transporter = nodemailer.createTransport({
   },
 });
 
-const sendEmail = expressAsyncHandler(async (req, res) => {
-  const { name, email, phone, passengers, additionlComment } = req.body;
-  console.log(phone);
+const sendEmail = (to, subject, htmlContent) => {
+  if (!to) {
+    throw new Error("No recipients defined");
+  }
   var mailOptions = {
     from: process.env.REACT_APP_SMTP_MAIL,
-    to: process.env.REACT_APP_SMTP_MAIL,
-    subject: "Enquiry from Ansh tours and travels",
-    // text: additionlComment,
-    html: `<div>
-    Name: ${name}<br/> Email: ${email}<br/> Phone: ${phone.countryCode} ${phone.areaCode}${phone.phoneNumber}<br/> Passengers: ${passengers}<br/> Message: ${additionlComment}
-    </div>`,
+    to,
+    subject,
+    html: htmlContent,
   };
 
   transporter.sendMail(mailOptions, function (error, info) {
@@ -33,6 +31,6 @@ const sendEmail = expressAsyncHandler(async (req, res) => {
       console.log("Email sent successfully!");
     }
   });
-});
+};
 
 module.exports = { sendEmail };
