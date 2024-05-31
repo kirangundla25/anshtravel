@@ -1476,8 +1476,7 @@ const adminBookingEmail = (
                           </tbody>
                         </table>
                       </td>
-                    </tr>
-                    <tr>
+                    </tr><tr>
                       <td class="column column-1" width="35%" style="
                           mso-table-lspace: 0pt;
                           mso-table-rspace: 0pt;
@@ -1937,7 +1936,7 @@ const adminBookingEmail = (
                                     margin-top: 0px;
                                     mso-line-height-alt: 33px;
                                   "><stron>From: ${bookedTimeSlots.from}<br>
-                                  <stron>From: ${bookedTimeSlots.to}    
+                                  <stron>To: ${bookedTimeSlots.to}    
                                   </stron></stron></h3>
                               </td>
                             </tr>
