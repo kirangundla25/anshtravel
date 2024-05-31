@@ -57,13 +57,11 @@ router.post("/sendBookingEmail", async (req, res) => {
   } = req.body;
 
   try {
-    // const tours = await bookingDataModel.find({ tour }).populate("tour").exec();
-
     // Send email to customer
     sendEmail(
       email,
       `Hello ${name}! Thank you for contacting Ansh Tours and Travels`,
-      customerBookingEmail(name, email)
+      customerBookingEmail(name, email, tour)
     );
 
     // Send email to admin
@@ -71,6 +69,7 @@ router.post("/sendBookingEmail", async (req, res) => {
       process.env.REACT_APP_SMTP_MAIL,
       `Booking request for ${tour} from ${name}`,
       adminBookingEmail(
+        tour,
         name,
         email,
         pickupaddress,

@@ -1,6 +1,7 @@
 const customerBookingEmail = (
   name,
-  email
+  email,
+  tour
 ) => `<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"><head>
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -874,6 +875,7 @@ const customerBookingEmail = (
 </body></html>`;
 
 const adminBookingEmail = (
+  tour,
   name,
   email,
   pickupaddress,
@@ -1474,7 +1476,8 @@ const adminBookingEmail = (
                           </tbody>
                         </table>
                       </td>
-                    </tr><tr>
+                    </tr>
+                    <tr>
                       <td class="column column-1" width="35%" style="
                           mso-table-lspace: 0pt;
                           mso-table-rspace: 0pt;
