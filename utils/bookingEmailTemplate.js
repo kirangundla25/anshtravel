@@ -299,9 +299,7 @@ const customerBookingEmail = (
                                               ">✕</span></label>
                                         </div>
                                         <div class="menu-links">
-                                          <!--[if mso]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style=""><tr style="text-align:center;"><!
-                                          [endif]--><!--[if mso]><td style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!
-                                          [endif]--><a href="https://anshtravelspot.com/about" target="_self" style="
+                                          <a href="https://anshtravelspot.com/about" target="_self" style="
                                               mso-hide: false;
                                               padding-top: 10px;
                                               padding-bottom: 10px;
@@ -317,11 +315,8 @@ const customerBookingEmail = (
                                               font-size: 15px;
                                               text-decoration: none;
                                               letter-spacing: normal;
-                                            ">About Us</a>><!--[if mso]></td><!
-                                          [endif]--><!--[if mso]><td style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!
-                                          [endif]--><!--[if mso]></td><!
-                                          [endif]--><!--[if mso]><td style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><![endif]-->
-                                          <a href="https://anshtravelspot.com/packages" target="_self" style="
+                                            ">About Us</a>>
+                                            <a href="https://anshtravelspot.com/packages" target="_self" style="
                                               mso-hide: false;
                                               padding-top: 10px;
                                               padding-bottom: 10px;
@@ -354,8 +349,7 @@ const customerBookingEmail = (
                                               font-size: 15px;
                                               text-decoration: none;
                                               letter-spacing: normal;
-                                            ">Contact</a>><!--[if mso]></td><!
-                                          [endif]--><!--[if mso]></tr></table><![endif]-->
+                                            ">Contact</a>>
                                         </div>
                                       </td>
                                     </tr>
@@ -798,9 +792,7 @@ const customerBookingEmail = (
                                           font-size: 0px;
                                         ">
                                         <div class="menu-links">
-                                          <!--[if mso]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style=""><tr style="text-align:center;"><!
-                                          [endif]--><!--[if mso]><td style="padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px"><!
-                                          [endif]--><a href="#" target="_self" style="
+                                          <a href="#" target="_self" style="
                                               mso-hide: false;
                                               padding-top: 5px;
                                               padding-bottom: 5px;
@@ -816,8 +808,7 @@ const customerBookingEmail = (
                                               font-size: 14px;
                                               text-decoration: none;
                                               letter-spacing: normal;
-                                            ">Terms &amp; Condition</a>><!--[if mso]></td><td><!
-                                          [endif]--><span class="sep" style="
+                                            ">Terms &amp; Condition</a>><span class="sep" style="
                                               font-size: 14px;
                                               font-family: Montserrat,
                                                 Trebuchet MS, Lucida Grande,
@@ -825,9 +816,8 @@ const customerBookingEmail = (
                                                 Lucida Sans, Tahoma,
                                                 sans-serif;
                                               color: #ffffff;
-                                            ">|</span>><!--[if mso]></td><!
-                                          [endif]--><!--[if mso]><td style="padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px"><!
-                                          [endif]--><a href="#" target="_self" style="
+                                            ">|</span>>
+                                            <a href="#" target="_self" style="
                                               mso-hide: false;
                                               padding-top: 5px;
                                               padding-bottom: 5px;
@@ -1181,9 +1171,7 @@ const adminBookingEmail = (
                                               ">✕</span></label>
                                         </div>
                                         <div class="menu-links">
-                                          <!--[if mso]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style=""><tr style="text-align:center;"><!
-                                          [endif]--><!--[if mso]><td style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!
-                                          [endif]--><a href="https://anshtravelspot.com/about" target="_self" style="
+                                          <a href="https://anshtravelspot.com/about" target="_self" style="
                                               mso-hide: false;
                                               padding-top: 10px;
                                               padding-bottom: 10px;
@@ -1199,11 +1187,8 @@ const adminBookingEmail = (
                                               font-size: 15px;
                                               text-decoration: none;
                                               letter-spacing: normal;
-                                            ">About Us</a>><!--[if mso]></td><!
-                                          [endif]--><!--[if mso]><td style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!
-                                          [endif]--><!--[if mso]></td><!
-                                          [endif]--><!--[if mso]><td style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><![endif]-->
-                                          <a href="https://anshtravelspot.com/packages" target="_self" style="
+                                            ">About Us</a>>
+                                            <a href="https://anshtravelspot.com/packages" target="_self" style="
                                               mso-hide: false;
                                               padding-top: 10px;
                                               padding-bottom: 10px;
@@ -1236,8 +1221,7 @@ const adminBookingEmail = (
                                               font-size: 15px;
                                               text-decoration: none;
                                               letter-spacing: normal;
-                                            ">Contact</a>><!--[if mso]></td><!
-                                          [endif]--><!--[if mso]></tr></table><![endif]-->
+                                            ">Contact</a>>
                                         </div>
                                       </td>
                                     </tr>
@@ -2315,9 +2299,7 @@ const adminBookingEmail = (
                                           font-size: 0px;
                                         ">
                                         <div class="menu-links">
-                                          <!--[if mso]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style=""><tr style="text-align:center;"><!
-                                          [endif]--><!--[if mso]><td style="padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px"><!
-                                          [endif]--><a href="#" target="_self" style="
+                                          <a href="#" target="_self" style="
                                               mso-hide: false;
                                               padding-top: 5px;
                                               padding-bottom: 5px;
@@ -2333,8 +2315,8 @@ const adminBookingEmail = (
                                               font-size: 14px;
                                               text-decoration: none;
                                               letter-spacing: normal;
-                                            ">Terms &amp; Condition</a>><!--[if mso]></td><td><!
-                                          [endif]--><span class="sep" style="
+                                            ">Terms &amp; Condition</a>>
+                                            <span class="sep" style="
                                               font-size: 14px;
                                               font-family: Montserrat,
                                                 Trebuchet MS, Lucida Grande,
@@ -2342,9 +2324,8 @@ const adminBookingEmail = (
                                                 Lucida Sans, Tahoma,
                                                 sans-serif;
                                               color: #ffffff;
-                                            ">|</span>><!--[if mso]></td><!
-                                          [endif]--><!--[if mso]><td style="padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px"><!
-                                          [endif]--><a href="#" target="_self" style="
+                                            ">|</span>>
+                                            <a href="#" target="_self" style="
                                               mso-hide: false;
                                               padding-top: 5px;
                                               padding-bottom: 5px;
